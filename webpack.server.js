@@ -10,9 +10,9 @@ const config = {
     path: path.resolve(__dirname, 'build'),
     filename: 'index.js'
   },
-  resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.jsx']
-  },
+  // resolve: {
+  //   extensions: ['.ts', '.tsx', '.js', '.jsx']
+  // },
   externals: [
     WebpackNodeExternals()
   ]

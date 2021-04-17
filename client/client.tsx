@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { applyMiddleware, createStore } from 'redux';
 import axios from 'axios';
 import thunk from 'redux-thunk';
-import reducers from './reducers';
+import reducers from 'Reducers/index';
 import Routes from './Routes';
 
 const axiosInstance = axios.create({

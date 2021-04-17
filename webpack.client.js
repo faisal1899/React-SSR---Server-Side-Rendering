@@ -8,13 +8,13 @@ const config = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'public')
-  },
-  resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.jsx'],
-    alias: {
-      App: path.resolve(__dirname, 'src/app/')
-    }
   }
+  // resolve: {
+  //   extensions: ['.ts', '.tsx', '.js', '.jsx'],
+  //   alias: {
+  //     App: path.resolve(__dirname, 'src/app/')
+  //   }
+  // }
 };
 
 module.exports = merge(baseConfig, config);

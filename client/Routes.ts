@@ -4,7 +4,7 @@ import Admins from './Admins';
 import App from './App';
 import Home from './Home';
 import NotFound from './NotFound';
-import UsersList from './user/UsersList';
+import UsersList from 'User/UsersList';
 
 // Have to use this sentax to use react-router-config which is used for SSR.
 export default [
