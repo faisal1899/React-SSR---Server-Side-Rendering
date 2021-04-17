@@ -1,14 +1,18 @@
 import React from 'react';
 
-export const Home = () => {
+const Home = () => {
   const onButtonClicked = () => {
     console.log('Button clicked');
   }
 
   return (
     <div>
-      <div>I am Home Component ccc</div>
+      <div>I am Home Component www</div>
       <button onClick={onButtonClicked}>Press Me</button>
     </div>
   );
 };
+
+export default {
+  component: Home,
+}
